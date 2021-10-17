@@ -6,9 +6,9 @@
 #define PTN_SET_FREQUENCY(Frequecy) ((Frequecy) * 1e-6f)
 
 enum PTn_types {
-  TYPE_PT2 = 2,
-  TYPE_PT3 = 3,
-  TYPE_PT4 = 4
+  FILTER_TYPE_PT2 = 2,
+  FILTER_TYPE_PT3,
+  FILTER_TYPE_PT4
 };
 
 typedef struct ptnFilter_s {
